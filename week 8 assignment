@@ -1,0 +1,46 @@
+Dataset Selection
+
+Choose a dataset that interests you:
+Dataset 1: Average Time Spent By User on Social Media
+Dataset 2: Netflix Shows
+Dataset 3: Human Stampedes
+Data Fun
+
+Cool Facts with Basic SQL Queries:
+
+Use SQL commands like COUNT, AVG, and SUM to explore the data.
+
+Example Query (Netflix Shows):
+
+SQL
+SELECT COUNT(DISTINCT country) AS total_countries
+FROM Cool Facts Examples: (Replace with your findings based on your chosen dataset)
+
+Dataset 1: Average Time Spent By User on Social Media - Identify the social media platform with the highest average user time.
+Dataset 3: Human Stampedes (if chosen) - Explore the countries with the most recorded stampede incidents (use caution with sensitive topics).netflix_shows;
+Ask Away
+
+Questions and SQL Queries:
+
+Formulate two questions about your dataset that can be answered using SQL.
+
+Example Question (Netflix Shows): What are the top 5 most popular genres based on the number of shows?
+
+Example SQL Query (Netflix Shows):
+
+SQL
+SELECT genre, COUNT(*) AS number_of_shows
+FROM netflix_shows
+GROUP BY genre
+ORDER BY number_of_shows DESC
+LIMIT 5;
+Learnings from Answers:
+
+Briefly explain what you learned from the answers to your questions.
+Example Learning (Netflix Shows): The data suggests that genre X is the most popular, followed by genre Y (replace with your findings).
+Showtime!
+
+Use a tool like Microsoft Excel to create charts that visually represent your findings.
+Chart 1 Example (Netflix Shows): Bar chart showing the top 5 genres and their corresponding number of shows.
+Chart 2 Example (Netflix Shows): Pie chart depicting the distribution of shows across different countries (if the data includes country information).
+Create another chart based on your analysis.
